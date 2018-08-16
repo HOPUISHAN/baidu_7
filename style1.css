@@ -1,0 +1,383 @@
+*{
+    margin: 0;
+}
+header{
+    background: url('image/img6.jpg') 0 0 no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+.bg{
+    background-color: #fff;
+    background-color: rgba(245, 241, 241, 0.479);
+    height: 700px;
+    text-align: center;
+}
+h1{
+    font-weight: lighter;
+    padding-top: 180px;
+    padding-bottom: 50px;
+}
+.qianyan{
+    text-align: center;
+    margin-bottom: 70px;
+    color: rgb(27, 27, 27);
+}
+
+.account{
+    border: 1px solid #fff;
+    text-align: center;
+    width: 70%;
+    margin-left: 15%;
+    padding: 35px 10px;
+}
+.account h3{
+    padding: 5px 0;
+    font-size: 16px;
+    font-family: 'Gill Sans MT';
+}
+.account p{
+    margin: 5px 0 30px;
+    font-size: 12px;
+    color: rgb(58, 56, 56);
+}
+.sign input{
+    height: 20px;
+    padding: 5px 10px;
+    margin-right: 10px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    outline: none;
+}
+.sign button{
+    height: 33px;
+    width: 100px;
+    border-radius: 3px;
+    border: none;
+    background-color: #fff;
+    outline: none;
+}
+
+.rules{
+    text-align: center;
+    width: 78%;
+    padding-left: 11%;
+    margin: 50px 0;
+}
+.left{
+    float: left;
+}
+.left .img{
+    float: left;
+    display: block;
+}
+.left .word{
+    float: right;
+    text-align: left;
+    margin-left: 20px;
+}
+.right {
+    float: right;
+}
+.right .img{
+    float: left;
+    display: block;
+}
+.right .word{
+    float: right;
+    text-align: left;
+    margin-left: 20px;
+}
+.first, .second{
+    /* margin-top: 50px;
+    margin-bottom: 150px; */
+    display: block;
+    padding: 50px 0 100px;
+}
+.rules p{
+    font-size: 12px;
+    padding: 12px 0;
+}
+.rules h2{
+    font-size: 28px;
+    font-weight: lighter;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.banner{
+    background: url(image/01.jpg) no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+.bg2 h2{
+    color: white;
+    font-weight: lighter;
+    font-size: 28px;
+    padding-left: 12%;
+    padding-top: 100px;
+}
+.bg2 p{
+    padding-left: 12%;
+    padding-top: 20px;
+    color: #fff;
+    font-weight: lighter;
+}
+.btn1{
+    margin-left: 12%;
+    margin-top: 30px;
+    height: 50px;
+    font-size: 12px;
+    padding: 0 25px;
+}
+.btn2{
+    height: 50px;
+    font-size: 12px;
+    padding: 0 25px;
+    margin-left: 20px;
+    background: none;
+    color: #fff;
+}
+
+.ipad{
+    margin-top: -280px;
+    float: right;
+    width: 50%;
+    height: 500px;
+    position: relative;
+    /* border: 1px solid #000; */
+    overflow: hidden;
+}
+.img1{
+    width: 110%;
+    height: 100%;
+    /* overflow: hidden; */
+    position: absolute;
+    margin-right: 0;
+    padding-right: 0;
+    /* margin-top: -35px; */
+    z-index: 1;
+    top: 0;
+    left: 0;
+    
+}
+.img2{
+    top: 25px;
+    left: -1%;
+    width: 95%;
+    height: 90%;
+    position: absolute;
+    margin-left: 59px;
+    /* overflow: hidden; */
+    z-index: 2;
+}
+
+.try{
+    text-align: center;
+    padding: 80px 50px;
+}
+.try h2{
+    font-size: 30px;
+    font-weight: lighter;
+}
+.bg3{
+    display: flex;
+    padding: 80px 30px;
+    border-bottom: 1px solid rgb(204, 204, 201);
+}
+.bg3 div{
+    padding: 10px 40px 0;
+}
+.bg3 div p{
+    padding: 30px 0 0;
+}
+
+
+.pic{
+    padding: 20px 80px;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid rgb(204, 204, 201);
+}
+.pic img{
+    width: 100%;
+    height: 100%;
+}
+.pic div{
+    padding: 20px 0 50px;
+}
+.tree div{
+    padding: 0 10px;
+}
+.pic1{
+    float: left;
+    width: 55%;
+    height: 400px;
+    flex-grow: 300px;
+}
+.page1{
+    width: 30%;
+    float: right;
+    margin-left: 20px;
+    margin-top: 80px;
+}
+.pic2{
+    float: right;
+    width: 55%;
+    height: 400px;
+    flex-grow: 300px;
+}
+.page2{
+    width: 30%;
+    float: left;
+    margin-left: 20px;
+    margin-top: 80px;
+}
+.page2 p, .page1 p{
+    padding-top: 20px;
+}
+
+.our{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgb(204, 204, 201);
+}
+.our h2{
+    font-weight: lighter;
+    font-size: 30px;
+}
+.our p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: grey;
+    font-weight: lighter;
+}
+.p1, .p2, .p3, .p4{
+    display: inline;
+    position: relative;
+}
+.hid{
+    position: absolute;
+    top: -363px;
+    left: 0;
+    width: 500px;
+    height: 380px;
+    opacity: 0;
+    background: rgba(101, 101, 101, 0.6);
+}
+.hid h4{
+    color: white;
+    margin-top: 100px;
+    font-size: 28px;
+    font-weight: lighter;
+}
+.hid p{
+    font-size: 20px;
+    font-weight: lighter;
+    color: rgb(206, 204, 204);
+}
+/* .hid .small{
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    width: 100px;
+}
+.hid img{
+    height: 30px;
+    width: 30px;
+} */
+
+.p1 img, .p2 img, .p3 img, .p4 img{
+    width:  500px;
+    height: 380px;
+}
+/* .p1:hover{
+    opacity: 0.6;
+} */
+.p1 a:hover .hid{
+    opacity: 1;
+}
+
+
+.cons{
+    float: right;
+    width: 500px;
+    margin: 80px 8% 80px 0;
+}
+.box{
+    float: left;
+    display: block;
+    border: 1px solid rgb(204, 204, 201);
+    margin: 80px 0 80px 15%;
+    padding: 40px 40px 60px;
+    text-align: center;
+}
+.box input, .box textarea{
+    display: block;
+    margin: 25px 0;
+    height: 30px;
+    width: 300px;
+    padding: 5px 10px;
+}
+.box textarea{
+    height: 80px;
+}
+.box button{
+    height: 45px;
+    width: 325px;
+    background-color: black;
+    color: white;
+    border: none;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    letter-spacing: 2px;
+}
+.cons h2{
+    font-weight: lighter;
+    font-size: 30px;
+    padding: 70px 0 20px;
+}
+.cons p{
+    padding-bottom: 40px;
+}
+.cons div{
+    margin: 20px 0;
+}
+.cons div img{
+    float: left;
+    margin-right: 20px;
+}
+
+footer{
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    /* height: 200px; */
+    bottom: 0;
+    clear: both;
+}
+
+.container{
+    padding: 70px 15%;
+    display: flex;
+}
+.container div{
+    padding: 0 40px;
+    font-weight: lighter;
+}
+.container h4{
+    font-weight: lighter;
+    letter-spacing: 1px;
+    padding: 20px 0;
+}
+.container div p{
+    padding: 8px 0;
+    color: rgb(184, 184, 180);
+}
+.icon img{
+    margin: 0 5px;
+}
+.icon{
+    margin-left: -40px;
+    margin-top: 5px;
+}
